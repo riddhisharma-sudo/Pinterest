@@ -2,7 +2,7 @@
 
 ## Overview
 Commerce is a Django web application that allows users to create auction listings, make bids, add items to a watchlist, and interact with various features related to online auctions.
-
+![Capture1](https://github.com/riddhisharma-sudo/Pinterest/assets/119350954/ada2b05a-6636-4ca3-8892-d1d55cce890b)
 
 ## Features
 - **Models:**
