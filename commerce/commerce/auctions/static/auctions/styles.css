@@ -1,0 +1,108 @@
+/* styles.css */
+
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+    color: rgb(33, 25, 34);;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: black;
+}
+
+.nav {
+    background-color: #e60023;
+    padding: 10px;
+}
+
+.nav-link{
+    color: #ffffff;
+    
+}
+
+.masonry {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    color:beige;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    color: #343a40;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.btn-primary {
+    background-color: beige;
+    border-color: beige;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    border-color: black;
+}
+
+.my-3 {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn-warning {
+    background-color:#e60023;
+    border-color:#e60023 ;
+    color: white;
+    
+}
+
+.btn-warning:hover {
+    background-color: black;
+    border-color: black;
+    color: #ffffff;
+    
+}
